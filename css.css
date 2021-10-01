@@ -33,7 +33,26 @@ h1 {
     display:flex
 }
 
+a {
+    text-decoration:none;
+    color:black;
+}
 
-.contenedor {
+.titular {
+    background-color:#544351;
+    color:#fff;
+    text-align:center;
+}
 
+.contenido {
+    flex-direction:column;
+    width:300px;
+}
+
+.contenido img {
+    width:300px;
+}
+
+contenido a {
+    justify-content: center;
 }
