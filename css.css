@@ -53,6 +53,14 @@ a {
     width:300px;
 }
 
-contenido a {
-    justify-content: center;
+.aside-title {
+    background-color:#544351;
+    color:#fff;
+    text-align:center;
 }
+
+.aside {
+    flex-direction:column;
+    width:300px;
+}
+
