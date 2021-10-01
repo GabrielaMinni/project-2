@@ -60,12 +60,13 @@ a {
 
 .aside {
     flex-direction:column;
-    width:300px;
 }
 
 .footer {
     background-color: cornflowerblue;
 }
 
-
+.aside img {
+    width:400px
+}
 
