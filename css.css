@@ -46,11 +46,10 @@ a {
 
 .contenido {
     flex-direction:column;
-    width:300px;
 }
 
 .contenido img {
-    width:300px;
+    width:400px;
 }
 
 .aside-title {
