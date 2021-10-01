@@ -5,3 +5,18 @@ body {
     line-height: 1.5;
     color: black;
 }
+
+@media screen and (max-width: 736px) {
+    display:flex;
+    display-direction:column;
+}
+    
+
+h1 {
+    text-transform:uppercase;
+    font-size:35px;
+}
+
+.contenedor {
+
+}
