@@ -8,9 +8,10 @@ body {
 
 .flex-container-1 {
     display:flex;
+    flex-wrap:wrap;
     flex-direction:column;
     background-color:#544351;
-    width: 400px;
+    width: 100%;
 }
 
 .time {
@@ -21,6 +22,8 @@ body {
 .flex-container-1 img {
     width:400px;
 }
+
+
 
 h1 {
     text-transform:uppercase;
