@@ -8,7 +8,7 @@ body {
     display:flex;
     flex-direction:column;
     background-color:#544351;
-    width: 360px;
+    text-align: center;
 }
 
 .time {
@@ -20,11 +20,10 @@ body {
 h1 {
     text-transform:uppercase;
     font-size:35px;
-    text-align:center;
     color:#fff;
 }
 
-.navbar {
+.display-none {
     display:none;
 }
 
@@ -33,50 +32,39 @@ h1 {
     flex-wrap:wrap;
 }
 
-.center-image {
-    width: 300px;
+.center img, h2 {
+    width: 355px;
 }
-
-.center-text {
-    width: 360px;
-}
-
 
 a {
     text-decoration:none;
-    color:black;
 }
 
 h2 {
-    margin-left: 5px;
+    margin-left: 10px;
     font-size: 15px;
 }
-
-.bottom {
-    display:flex;
-    flex-wrap:wrap;
-}
-
-.bottom-image{
-    width=
-}
-
-.bottom-text {
-
-}
-/*quede aca/
-
 
 .bottom-title {
     background-color:#544351;
     color:#fff;
-        
-    /*/
-
-    width:360px;
-    /*/
 }
 
+li {
+    list-style-type:none;
+}
+
+.bottom-content img, h2{
+    width: 355px;
+}
+
+.most-read-title {
+    background-color: #544351;
+    color:#fff;
+}
+
+/*quede aca/
+     
 
 .aside-title {
     background-color:#544351;
@@ -105,8 +93,5 @@ h2 {
 .footer {
     background-color: cornflowerblue;
     /*/
-    width: 360px;
-
-}
 
 /*tablet design*/
