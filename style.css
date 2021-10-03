@@ -33,16 +33,21 @@ h1 {
 }
 
 .center img, h2 {
-    width: 355px;
+    width: 351px;
 }
 
 a {
     text-decoration:none;
+    color:black;
 }
 
 h2 {
+    font-size: 15px
+}
+
+h3 {
     margin-left: 10px;
-    font-size: 15px;
+    align-content: center;
 }
 
 .bottom-title {
@@ -50,12 +55,14 @@ h2 {
     color:#fff;
 }
 
-li {
-    list-style-type:none;
+
+.bottom-content {
+    display:flex;
+    flex-wrap: wrap;
 }
 
-.bottom-content img, h2{
-    width: 355px;
+.bottom-content img, h3 {
+    width: 351px;
 }
 
 .most-read-title {
@@ -63,35 +70,6 @@ li {
     color:#fff;
 }
 
-/*quede aca/
-     
-
-.aside-title {
-    background-color:#544351;
-    color:#fff;
-    text-align:center;
-    width:360px;
-}
-
-.aside {
-    flex-direction:column;
-}
-
-.aside-box-1 {
-    flex-wrap:wrap;
-    
-}
-
-.aside-image {
-    width:360px;
-}
-
-.aside-text {
-    width:360px;
-}
-
-.footer {
-    background-color: cornflowerblue;
-    /*/
-
-/*tablet design*/
+.most-read-content img{
+    width:355px;
+ }
