@@ -23,8 +23,12 @@ h1 {
     color:#fff;
 }
 
-.display-none {
+.navbar, .hidden, .advertisement {
     display:none;
+}
+
+.hamb-menu img{
+    width: 15px;
 }
 
 .center {
@@ -36,13 +40,16 @@ h1 {
     width: 351px;
 }
 
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 15px;
+    align-content: center; 
+}
+
 a {
     text-decoration:none;
     color:black;
-}
-
-h2 {
-    font-size: 15px
 }
 
 h3 {
@@ -73,3 +80,53 @@ h3 {
 .most-read-content img{
     width:355px;
  }
+
+ footer {
+     background-color: #544351;
+     color:#fff;
+}
+
+ .sections {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.social-media {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-bottom:10px;
+}
+
+.form {
+    display:flex;
+    flex-direction:inline;
+    align-content:center;
+}
+
+ @media screen and (min-width: 760px){
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+        width:100%;
+        font-size: 20px;
+        font-weight: bold;
+        background-color: #544351;   
+}
+
+    .navbar a {
+        color:white;
+    }
+
+    .navbar a:hover {
+        color:black;
+    }
+    
+    .hamb-menu {
+        display:none;        
+    }
+
+    .center img {
+        margin-top: 10px;
+    }
