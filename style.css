@@ -23,13 +23,16 @@ h1 {
     color:#fff;
 }
 
-.navbar, .hidden, 
-.news {
+.navbar, .aside {
     display:none;
 }
 
 .hamb-menu img{
     width: 15px;
+}
+
+.primero {
+    display:flex;
 }
 
 .center {
@@ -111,6 +114,7 @@ form {
     margin-left: 20px;
 }
 
+/*ipad vesion*/
 @media screen and (min-width: 768px){
     .navbar{
         display: flex;
@@ -141,6 +145,16 @@ form {
         font-size: 50px;
     }
 
+    .primero {
+        display:flex;
+        flex-direction:row;
+    }
+
+    .hidden {
+        display:flex;
+        flex-direction:row;
+    }
+
     .center img {
         margin-top: 10px;
     }
@@ -166,6 +180,7 @@ form {
     }
 }
 
+/*desktop*/
 @media screen and (min-width: 900px){
     .flex-container {
         display:flex;
@@ -181,5 +196,14 @@ form {
 
     .center img, h2 {
         width: 600px;
+    }
+
+    .aside { 
+        display:flex;
+        margin-top: 10px;
+    } 
+    
+    form {
+        margin-left: 500px;
     }
 }
