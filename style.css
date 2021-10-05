@@ -5,26 +5,26 @@ body {
 }
 
 .flex-container-1 {
-    display:flex;
-    flex-direction:column;
-    background-color:#544351;
+    display: flex;
     text-align: center;
+    flex-direction: column;
+    background-color: #544351;
 }
 
 .time {
-    padding-top: 10px;
     text-align: center;
+    padding-top: 10px;
     color: #fff; 
 }
 
 h1 {
-    text-transform:uppercase;
+    text-transform: uppercase;
     font-size: 35px;
-    color:#fff;
+    color: #fff;
 }
 
 .navbar, .aside {
-    display:none;
+    display: none;
 }
 
 .hamb-menu img{
@@ -32,12 +32,12 @@ h1 {
 }
 
 .primero {
-    display:flex;
+    display: flex;
 }
 
 .center {
-    display:flex;
-    flex-wrap:wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .center img, h2 {
@@ -45,29 +45,29 @@ h1 {
 }
 
 h2 {
+    align-content: center;
+    margin-left: 15px;
     font-size: 20px;
     font-weight: bold;
-    margin-left: 15px;
-    align-content: center; 
 }
 
 a {
-    text-decoration:none;
-    color:black;
+    text-decoration: none;
+    color: black;
 }
 
 h3 {
-    margin-left: 10px;
     align-content: center;
+    margin-left: 10px;
 }
 
 .bottom-title {
-    background-color:#544351;
-    color:#fff;
+    background-color: #544351;
+    color: #fff;
 }
 
 .bottom-content {
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
 }
 
@@ -77,37 +77,37 @@ h3 {
 
 .most-read-title {
     background-color: #544351;
-    color:#fff;
+    color: #fff;
 }
 
 .most-read-content img{
-    width:355px;
+    width: 355px;
  }
 
  footer {
      background-color: #544351;
-     color:#fff;
+     color: #fff;
 }
 
  .sections {
-    display:flex;
-    flex-direction:column;
-    align-items:center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .social-media {
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    margin-bottom:10px;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;    
 }
 
 .sections a:hover {
-    color:#fff;
+    color: #fff;
 }
 
 .social-media a:hover{
-    color:#fff;
+    color: #fff;
 }
 
 form {
@@ -119,22 +119,23 @@ form {
     .navbar{
         display: flex;
         justify-content: space-around;
-        width:100%;
+        width: 100%;
+        background-color: #544351;   
         font-size: 20px;
         font-weight: bold;
-        background-color: #544351;   
+     
     }
 
     .navbar a {
-        color:white;
+        color: white;
     }
 
     .navbar a:hover {
-        color:black;
+        color: black;
     }
     
     .hamb-menu {
-        display:none;        
+        display: none;        
     }
 
     .time {
@@ -146,13 +147,13 @@ form {
     }
 
     .primero {
-        display:flex;
-        flex-direction:row;
+        display: flex;
+        flex-direction: row;
     }
 
     .hidden {
-        display:flex;
-        flex-direction:row;
+        display: flex;
+        flex-direction: row;
     }
 
     .center img {
@@ -172,7 +173,7 @@ form {
     }
 
     .social-media {
-        font-size:20px;
+        font-size: 20px;
      }
     
      form {
@@ -183,15 +184,15 @@ form {
 /*desktop*/
 @media screen and (min-width: 900px){
     .flex-container {
-        display:flex;
-        flex-wrap:nowrap;
+        display: flex;
+        flex-wrap: nowrap;
     }    
 
     .center {
-        width:100%;
-        display:flex;
+        display: flex;
         flex-direction: column;
         align-content: center;
+        width: 100%;
     }
 
     .center img, h2 {
@@ -199,7 +200,7 @@ form {
     }
 
     .aside { 
-        display:flex;
+        display: flex;
         margin-top: 10px;
     } 
     
